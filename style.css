@@ -1,0 +1,163 @@
+a {
+    text-decoration: none;
+    color: #60A8A4;
+}
+a:hover {
+    text-decoration: none;
+    color: #f1f1f1;
+}
+body {
+    font-family: Georgia, serif;
+    margin: 0 auto;
+    background-image: url('../images/concrete_seamless.png');
+}
+.banner {
+    position: absolute;
+    top: 150px;
+    width: 44%;
+    margin: 20px;
+    background-color: #60A8A4;
+    height: 50px;
+}
+.container {
+    margin: 0 auto;
+    width: 76%;
+}
+.content-main-left {
+    float: left;
+    margin-top: 60px;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #e2e2e2;
+    width: 60%;
+    margin-bottom: 50px;
+}
+.content-main-left-title {
+    color: #60A8A4;
+    font-size: 31px;
+    font-weight: bold;
+    padding: 20px;
+}
+.content-main-left-image {
+    float: left;
+    position: relative;
+    margin: 20px;
+}
+.content-main-portfolio-images > img {
+    float: left;
+    margin-top: 16px;
+    margin-right: 0px;
+    margin-bottom: 16px;
+    margin-left: 4%;
+    width: 44%;
+}
+.content-main-right {
+    float: right;
+    margin-right: 0px;
+    margin-top: 60px;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #e2e2e2;
+    width: 28%;
+}
+.content-main-right-title {
+    text-align: center;
+    color: #60A8A4;
+    font-size: 22px;
+    font-weight: bold;
+    padding: 20px;
+}
+.text-center {
+    padding: 20px;
+    text-align: center;
+}
+.text-right {
+    padding: 20px;
+    color: #60A8A4;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 40px;
+}
+.header {
+    margin: 0 auto;
+    background-color: white;
+    height: 90px;
+    border-bottom: 1px solid #60A8A4;
+}
+.header-content-right {
+    padding-right: 10px;
+    float: right;
+}
+
+hr {
+    margin-left: 2%;
+    margin-right: 2%;
+}
+h1 {
+    text-align: center;
+    color: white;
+}
+#main-left {
+    margin-bottom: 280px;
+}
+.your-name {
+    float: left;
+    text-align: center;
+    background-color: #60A8A4;
+    color: white;
+    font-weight: bold;
+    padding-top: 28px;
+    padding-right: 12px;
+    padding-bottom: 28px;
+    padding-left: 12px;
+    font-size: 30px;
+    width: 30%;
+}
+ul, li {
+    display: inline-block;
+}
+li {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #B1B5B6;
+    padding: 18px;
+}
+span.line {
+    color: #f1f1f1;
+}
+
+input#full_name, input#email {
+    clear: both;
+    padding: 14px;
+    width: 94%;
+    border: 1px solid #e2e2e2;
+    font-size: 20px;
+}
+textarea#message {
+    width: 94%;
+    height: 300px;
+    clear: both;
+    padding: 14px;
+    border: 1px solid #e2e2e2;
+    font-size: 20px;
+}
+label#full_name, label#email {
+    font-size: 20px;
+}
+button#submit-button {
+    color: white;
+    background-color: #60A8A4;
+    width: 120px;
+    padding: 14px;
+    border: 0px;
+    font-size: 16px;
+}
+.footer {
+    background-color: #666666;
+    height: 140px;
+    border-top: 4px solid #60A8A4;
+    clear: both;
+}
+.footer-text {
+    padding-top: 50px;
+    color: #AEB2B6;
+    text-align: center;
+}
